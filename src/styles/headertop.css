@@ -1,0 +1,90 @@
+body {
+     font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .main-header {
+    margin:0px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 48px;
+    background-color:#f5f5f5;
+    height:36px;
+  }
+  
+  .logo {
+    width:24px;
+    height:24px;
+  }
+  
+  .link-home{
+    font-size: 15px;
+    font-weight: 500px;
+    justify-content:center;
+  }
+  .header-links {
+    list-style:none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-links li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-links a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+  }
+  
+  .header-links span {
+    color: #111111;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Medium devices (tablets) */  
+@media only screen and (min-width:100px) and (max-width:768px) {  
+ 
+  .link-home{
+   display: none;
+    }
+  .container {  
+      padding: 20px; /* Adjust padding for tablet */  
+  }
+  .main-header{
+    padding:0px;
+  }
+  .header-links {
+    list-style:none;
+    display:flex;
+    gap:10px;
+    margin-right:8px;
+    padding: 0;
+  }
+}  
+
+
+/* Large devices (desktops) */  
+@media only screen and (min-width: 769px) and (max-width: 1024px) {  
+ 
+  
+ 
+}  
+
+/* Extra large devices (large desktops) */  
+@media only screen and (min-width:1025px) {  
+  body {  
+      font-size: 22px; /* Even larger font size for large desktops */  
+  }  
+} 

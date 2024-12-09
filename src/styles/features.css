@@ -1,0 +1,92 @@
+ .featured-container {
+    margin-left:30px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: #111111;
+    width: 1344px;
+    height: 977px;
+  }
+  
+  .featured-header {
+    position: absolute;
+    top:-30;
+    left: 0;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #111111;
+  }
+  
+  .featured-image {
+    width: 1344px;
+    height: 700px;
+  }
+  
+  .featured-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .featured-text h1 {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 60px;
+    margin: 0;
+    color: #111111;
+  }
+  
+  .featured-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+    color: #111111;
+  }
+  
+  .featured-text button {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    padding: 7.5px 23.921875px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .featured-text button:hover {
+    background-color: #333;
+  }
+  /* Medium devices (tablets) */  
+@media only screen and (min-width: 601px) and (max-width: 768px) {  
+  body {  
+      font-size: 18px; /* Adjust font size for tablets */  
+  }  
+
+  .container {  
+      padding: 20px; /* Adjust padding for tablet */  
+  }  
+}  
+
+/* Large devices (desktops) */  
+@media only screen and (min-width: 769px) and (max-width: 1024px) {  
+  body {  
+      font-size: 20px; /* Larger font size for desktops */  
+  }  
+
+  .container {  
+      padding: 40px; /* More padding for desktops */  
+  }  
+}  
+
+/* Extra large devices (large desktops) */  
+@media only screen and (min-width:1025px) {  
+  body {  
+      font-size: 22px; /* Even larger font size for large desktops */  
+  }  
+} 
